@@ -13,7 +13,7 @@ body { font-family: Verdana, Arial, sans-serif;
 		  }
 
 #left { float: left;
-	    width: 10%;
+	    width: 100px;
 	    min-height: 100%;
 	    letter-spacing: 0.1em;   
 	    position: fixed;
@@ -27,6 +27,7 @@ body { font-family: Verdana, Arial, sans-serif;
 	       letter-spacing: 0.1em;   
 	       position: fixed;
 	       margin-bottom: 0px;
+	       min-width: 100px;
 	    }
 	    
 	    
@@ -36,16 +37,18 @@ body { font-family: Verdana, Arial, sans-serif;
 			}
 	    
 #left a { 
-		  width: 10%;
+		  width: 15px;
 		  text-decoration: none;
 		  padding: 20px;
 		  display: block;	
 		  color: olive;
 		  font-style: oblique;
-		  font-size: .7em;
 		  text-align: center;
 		  position: relative;
 		   }
+		   
+#left a:hover { color: blue;}
+
 		   
 		   
 #right { background-color: white;
@@ -131,7 +134,9 @@ p { padding-left: 5em;}
 			}
 			
 #aboutimg { background-image: url(night-banner.jpg);
-			background-repeat: no-repeat;}	   
+			height: auto;
+			width: auto;
+			}	   
 
 right ul { overflow: hidden;}
 
@@ -144,6 +149,8 @@ right li { margin-left: 20em;}
 		  clear: both;
 		  margin-left: 0px;
 		  }
+		  
+#mailto { color: white;}
  
 
 
