@@ -7,19 +7,17 @@ body { font-family: Verdana, Arial, sans-serif;
 .banner { max-height: 100%;
 		  max-width: 100%;
 		  overflow: hidden;
-		  box-shadow: 10px 10px 10px 10px black inset;
 		  }
 		  
 
 
 #left { float: left;
-	    width: 10%;
+	    width: 100px;
 	    min-height: 100%;
 	    letter-spacing: 0.1em;   
 	    position: fixed;
 	    margin-bottom: 0px;
 	    background-color: #2b2b2b;
-	    font-size-adjust: inherit;
 	    }
 	    
 #sidebar { float: left;
@@ -34,21 +32,21 @@ body { font-family: Verdana, Arial, sans-serif;
 			}
 			
 #left a { 
-		  width: 10%;
+		  font-size: 10px;
 		  text-decoration: none;
 		  padding: 20px;
 		  display: block;	
 		  color: olive;
-		  font-style: oblique;
-		  font-size: .7em;
-		  text-align: center;
+		  font-weight: bold;
+		  text-align: left;
 		  position: relative;
+		  padding-left: 10px;
 		   }
 		   
 #right { background-color: white;
 		 text-align: center;}
 		 
-#content { margin-left: 10%;}
+#content { margin-left: 100px;}
 		 
 		 
 .tab {	margin-left: auto;
@@ -71,6 +69,12 @@ td { padding: 35px;
 	 font-weight: 200;
 	 font-size: larger;
 	 font-style: italic;}
+	 
+#price { border: 2px solid;
+		 font-size: large;
+		 color: gray;
+		 font-family: sans-serif;
+		}
 
 			 
 #footer { font-size: 70%;
@@ -80,3 +84,5 @@ td { padding: 35px;
 		  clear: both;
 		  margin-left: 0px;
 		  }
+		  
+#mailto { color: white;}
