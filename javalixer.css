@@ -56,7 +56,7 @@ body { font-family: Verdana, Arial, sans-serif;
 #right { background-color: white;
 		position: absolute;
 		top:0;
-		left:10%;
+		left:100px;
 		 
 		 }
 		 
@@ -130,7 +130,7 @@ h1 { font-family: "Apple Chancery", serif;}
 p { padding-left: 5em;}
 
 
-#aboutbar { background-color: yellow;
+#aboutbar { background-color: #e6e6e6;
 			opacity: 0.6;
 			overflow: hidden;
 			}
